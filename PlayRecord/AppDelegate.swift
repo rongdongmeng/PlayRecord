@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 
         window = UIWindow()
-        let tabVc = UITabBarController()
-        tabVc.view.backgroundColor = UIColor.red
+        let tabVc = PRTabbarController()
+        //tabVc.view.backgroundColor = UIColor.red
 
         window?.rootViewController = tabVc
         window?.makeKeyAndVisible()

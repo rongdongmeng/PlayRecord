@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E76F28421DFEE8E0007D2316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F28411DFEE8E0007D2316 /* AppDelegate.swift */; };
-		E76F28441DFEE8E0007D2316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F28431DFEE8E0007D2316 /* ViewController.swift */; };
 		E76F28471DFEE8E0007D2316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76F28451DFEE8E0007D2316 /* Main.storyboard */; };
 		E76F28491DFEE8E0007D2316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76F28481DFEE8E0007D2316 /* Assets.xcassets */; };
 		E76F284C1DFEE8E0007D2316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76F284A1DFEE8E0007D2316 /* LaunchScreen.storyboard */; };
+		E7810DEC1DFEF58C00F09A88 /* PRTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810DEB1DFEF58C00F09A88 /* PRTabbarController.swift */; };
+		E7810DF71DFEF78C00F09A88 /* PRConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810DF61DFEF78C00F09A88 /* PRConversationController.swift */; };
+		E7810DFA1DFEF79B00F09A88 /* PRMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810DF91DFEF79B00F09A88 /* PRMeController.swift */; };
+		E7810DFD1DFEF7A800F09A88 /* PRVideoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810DFC1DFEF7A800F09A88 /* PRVideoListController.swift */; };
+		E7810E001DFEF7B200F09A88 /* PRFindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810DFF1DFEF7B200F09A88 /* PRFindController.swift */; };
+		E7810E031DFEF7EF00F09A88 /* PRRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7810E021DFEF7EF00F09A88 /* PRRecordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E76F283E1DFEE8E0007D2316 /* PlayRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76F28411DFEE8E0007D2316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E76F28431DFEE8E0007D2316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E76F28461DFEE8E0007D2316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E76F28481DFEE8E0007D2316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76F284B1DFEE8E0007D2316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76F284D1DFEE8E0007D2316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7810DEB1DFEF58C00F09A88 /* PRTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRTabbarController.swift; sourceTree = "<group>"; };
+		E7810DF61DFEF78C00F09A88 /* PRConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRConversationController.swift; sourceTree = "<group>"; };
+		E7810DF91DFEF79B00F09A88 /* PRMeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRMeController.swift; sourceTree = "<group>"; };
+		E7810DFC1DFEF7A800F09A88 /* PRVideoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRVideoListController.swift; sourceTree = "<group>"; };
+		E7810DFF1DFEF7B200F09A88 /* PRFindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRFindController.swift; sourceTree = "<group>"; };
+		E7810E021DFEF7EF00F09A88 /* PRRecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRRecordController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,58 @@
 			isa = PBXGroup;
 			children = (
 				E76F28411DFEE8E0007D2316 /* AppDelegate.swift */,
-				E76F28431DFEE8E0007D2316 /* ViewController.swift */,
+				E7810DEB1DFEF58C00F09A88 /* PRTabbarController.swift */,
+				E7810DFB1DFEF7A800F09A88 /* VideoList */,
+				E7810DFE1DFEF7B200F09A88 /* Find */,
+				E7810E011DFEF7D300F09A88 /* Record */,
+				E7810DF51DFEF78C00F09A88 /* Conversation */,
+				E7810DF81DFEF79B00F09A88 /* Me */,
 				E76F28451DFEE8E0007D2316 /* Main.storyboard */,
 				E76F28481DFEE8E0007D2316 /* Assets.xcassets */,
 				E76F284A1DFEE8E0007D2316 /* LaunchScreen.storyboard */,
 				E76F284D1DFEE8E0007D2316 /* Info.plist */,
 			);
 			path = PlayRecord;
+			sourceTree = "<group>";
+		};
+		E7810DF51DFEF78C00F09A88 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				E7810DF61DFEF78C00F09A88 /* PRConversationController.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		E7810DF81DFEF79B00F09A88 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				E7810DF91DFEF79B00F09A88 /* PRMeController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		E7810DFB1DFEF7A800F09A88 /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				E7810DFC1DFEF7A800F09A88 /* PRVideoListController.swift */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
+		E7810DFE1DFEF7B200F09A88 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				E7810DFF1DFEF7B200F09A88 /* PRFindController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		E7810E011DFEF7D300F09A88 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				E7810E021DFEF7EF00F09A88 /* PRRecordController.swift */,
+			);
+			path = Record;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +151,7 @@
 				TargetAttributes = {
 					E76F283D1DFEE8E0007D2316 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RADF6RWK3L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E76F28441DFEE8E0007D2316 /* ViewController.swift in Sources */,
 				E76F28421DFEE8E0007D2316 /* AppDelegate.swift in Sources */,
+				E7810DF71DFEF78C00F09A88 /* PRConversationController.swift in Sources */,
+				E7810E031DFEF7EF00F09A88 /* PRRecordController.swift in Sources */,
+				E7810E001DFEF7B200F09A88 /* PRFindController.swift in Sources */,
+				E7810DFD1DFEF7A800F09A88 /* PRVideoListController.swift in Sources */,
+				E7810DEC1DFEF58C00F09A88 /* PRTabbarController.swift in Sources */,
+				E7810DFA1DFEF79B00F09A88 /* PRMeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RADF6RWK3L;
 				INFOPLIST_FILE = PlayRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rong.PlayRecord;
@@ -270,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RADF6RWK3L;
 				INFOPLIST_FILE = PlayRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rong.PlayRecord;
@@ -297,6 +360,7 @@
 				E76F28521DFEE8E0007D2316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
